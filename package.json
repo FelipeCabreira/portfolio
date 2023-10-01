@@ -9,18 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "next": "latest",
-    "typescript": "latest",
-    "@types/react": "latest",
+    "@react-email/components": "^0.0.7",
+    "@react-email/tailwind": "^0.0.9",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
+    "clsx": "^2.0.0",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "framer-motion": "^10.16.4",
+    "next": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "resend": "^1.1.0",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.4"
+  }
 }
