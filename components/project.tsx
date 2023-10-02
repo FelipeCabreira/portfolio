@@ -40,11 +40,10 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
         </div>
 
         <Image
-          // src={imageUrl}
-          src={''}
+          src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+          className="absolute hidden sm:block top-8 -right-5 w-[20.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
@@ -55,7 +54,7 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
         group-even:group-hover:translate-y-3
         group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
+        group-even:right-[initial] group-even:-left-5"
         />
       </section>
     </motion.div>

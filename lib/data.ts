@@ -1,3 +1,7 @@
+import adplabslogoImg from '@/public/adplabslogo.jpeg';
+import dbserverImg from '@/public/dbserver.jpeg';
+import delllogoImg from '@/public/delllogo.png';
+import twlogoImg from '@/public/twlogo.jpg';
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
@@ -67,32 +71,51 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Linx project',
+    title: 'DBServer - Linx Project',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: ' ',
+      'Migration project of the company ERP from legacy (DELPHI) UI to a new tech stack with Angular 2.X/.NET and Azure Pipelines',
+    tags: [
+      'Angular 2.X',
+      '.NET',
+      'SQL',
+      'SCSS',
+      'TDD',
+      'Jasmine',
+      'Azure Pipelines',
+      'Cypress',
+      'NRWL (Nx workspace)',
+    ],
+    imageUrl: dbserverImg,
   },
   {
-    title: 'Core data team',
-    description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: ' ',
+    title: 'DELL Technologies - Core Microservices',
+    description: 'Design and architecture a micro front-end strategy, ',
+    tags: [
+      'Angular 2.X',
+      'Java',
+      'Java Springboot',
+      'SCSS',
+      'Redux',
+      'Oracle SQL',
+      'Gitlab Pipelines',
+      'Cypress',
+      'Single-SPA',
+    ],
+    imageUrl: delllogoImg,
   },
   {
-    title: 'TELUS Company',
+    title: 'Thoughtworks - TELUS',
     description:
       'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: ' ',
+    imageUrl: twlogoImg,
   },
   {
-    title: 'ESI Connect',
+    title: 'ADP Labs',
     description:
       'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: ' ',
+    imageUrl: adplabslogoImg,
   },
 ] as const;
 
