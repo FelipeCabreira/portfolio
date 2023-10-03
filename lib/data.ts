@@ -34,38 +34,65 @@ export const links = [
   },
 ] as const;
 
+// export const experiencesData = [
+//   {
+//     title: 'DBServer',
+//     location: 'Porto Alegre, RS - Brazil',
+//     description:
+//       'Main activities: Worked as a front-end developer, leading a new team to migrate the legacy project from DELPH to a web strategy using Angular 2.X and .NET, Jasmine, TDD',
+//     icon: React.createElement(LuGraduationCap),
+//     date: 'May 2018 - Dec 2019',
+//   },
+//   {
+//     title: 'Dell Technologies',
+//     location: 'Eldorado do Sul, RS - Brazil',
+//     description:
+//       'Main activities: Design and architect of a newly core team, using micro-frontend approach with Single-SPA framework/Angular 2.X/Java(Springboot), Jasmine, TDD, SOLID Principles',
+//     icon: React.createElement(CgWorkAlt),
+//     date: 'Dec 2019 - Dec 2021',
+//   },
+//   {
+//     title: 'Thoughtworks',
+//     location: 'Remote',
+//     description:
+//       'Main activities: Worked as a fullstack developer consultant to ecommerce telecommunication canadian client, using NodeJS/React with Ramda, Jest, TDD',
+//     icon: React.createElement(FaReact),
+//     date: 'Jan 2022 - Mar 2023',
+//   },
+//   {
+//     title: 'ADP Labs',
+//     location: 'Porto Alegre, RS - Brazil',
+//     description:
+//       'Main activities: Working as a fullstack developer create a new portal to share common knowledge company across all teams, using React with Typescript, Java(Springboot), AWS Cloud Lambdas, TDD, Jest, Solid Principles',
+//     icon: React.createElement(FaReact),
+//     date: 'April 2022 - current ',
+//   },
+// ] as const;
+
 export const experiencesData = [
   {
-    title: 'DBServer',
-    location: 'Porto Alegre, RS - Brazil',
+    title: 'Graduated bootcamp',
+    location: 'Miami, FL',
     description:
-      'Main activities: Worked as a front-end developer, leading a new team to migrate the legacy project from DELPH to a web strategy using Angular 2.X and .NET, Jasmine, TDD',
+      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
     icon: React.createElement(LuGraduationCap),
-    date: 'May 2018 - Dec 2019',
+    date: '2019',
   },
   {
-    title: 'Dell Technologies',
-    location: 'Eldorado do Sul, RS - Brazil',
+    title: 'Front-End Developer',
+    location: 'Orlando, FL',
     description:
-      'Main activities: Design and architect of a newly core team, using micro-frontend approach with Single-SPA framework/Angular 2.X/Java(Springboot), Jasmine, TDD, SOLID Principles',
+      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
     icon: React.createElement(CgWorkAlt),
-    date: 'Dec 2019 - Dec 2021',
+    date: '2019 - 2021',
   },
   {
-    title: 'Thoughtworks',
-    location: 'Remote',
+    title: 'Full-Stack Developer',
+    location: 'Houston, TX',
     description:
-      'Main activities: Worked as a fullstack developer consultant to ecommerce telecommunication canadian client, using NodeJS/React with Ramda, Jest, TDD',
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: 'Jan 2022 - Mar 2023',
-  },
-  {
-    title: 'ADP Labs',
-    location: 'Porto Alegre, RS - Brazil',
-    description:
-      'Main activities: Working as a fullstack developer create a new portal to share common knowledge company across all teams, using React with Typescript, Java(Springboot), AWS Cloud Lambdas, TDD, Jest, Solid Principles',
-    icon: React.createElement(FaReact),
-    date: 'April 2022 - current ',
+    date: '2021 - present',
   },
 ] as const;
 
