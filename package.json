@@ -34,6 +34,6 @@
     "typescript": "latest"
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.4"
+    "@types/react-vertical-timeline-component": "^3.3.3"
   }
 }

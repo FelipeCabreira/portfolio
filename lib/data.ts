@@ -3,9 +3,7 @@ import dbserverImg from '@/public/dbserver.jpeg';
 import delllogoImg from '@/public/delllogo.png';
 import twlogoImg from '@/public/twlogo.jpg';
 import React from 'react';
-import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
+import { CgWebsite, CgWorkAlt } from 'react-icons/cg';
 
 export const links = [
   {
@@ -40,7 +38,7 @@ export const experiencesData = [
     location: 'Porto Alegre, RS - Brazil',
     description:
       'Main activities: Worked as a front-end developer, leading a new team to migrate the legacy project from DELPH to a web strategy using Angular 2.X and .NET, Jasmine, TDD',
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWebsite),
     date: 'May 2018 - Dec 2019',
   },
   {
@@ -56,7 +54,7 @@ export const experiencesData = [
     location: 'Remote',
     description:
       'Main activities: Worked as a fullstack developer consultant to ecommerce telecommunication canadian client, using NodeJS/React with Ramda, Jest, TDD',
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWebsite),
     date: 'Jan 2022 - Mar 2023',
   },
   {
@@ -64,7 +62,7 @@ export const experiencesData = [
     location: 'Porto Alegre, RS - Brazil',
     description:
       'Main activities: Working as a fullstack developer create a new portal to share common knowledge company across all teams, using React with Typescript, Java(Springboot), AWS Cloud Lambdas, TDD, Jest, Solid Principles',
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: 'April 2022 - current ',
   },
 ] as const;
