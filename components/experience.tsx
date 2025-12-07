@@ -48,7 +48,7 @@ export default function Experience() {
                   fontSize: '1.5rem',
                 }}
                 dateClassName="!text-gray-500 dark:!text-gray-400 !text-sm !mt-4">
-                <div className="flex items-start gap-3">
+                <div className="flex items-start gap-2">
                   <div className="text-2xl mt-1">
                     {item.icon}
                   </div>
