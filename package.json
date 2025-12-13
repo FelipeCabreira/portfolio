@@ -11,8 +11,8 @@
     "format:check": "prettier --check \"**/*.js\" \"**/*.ts\" \"src/**/*.ts\""
   },
   "dependencies": {
-    "@react-email/components": "^0.0.7",
-    "@react-email/tailwind": "^0.0.9",
+    "@react-email/components": "^1.0.1",
+    "@react-email/tailwind": "^2.0.1",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
